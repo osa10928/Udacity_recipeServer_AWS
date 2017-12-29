@@ -1,0 +1,204 @@
+/* Generic Rules */
+
+body {
+  margin-top: 87.22px;
+  background: rgba(200, 200, 205, 1);
+}
+
+a {
+  color: rgba(107, 63, 160, 1);
+}
+
+a:hover {
+  color: rgba(107, 63, 160, 1);
+}
+
+main {
+  padding-top: 66px;
+  flex-wrap: wrap;
+}
+
+.flash-message {
+  background: white;
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+
+.data-container {
+  min-width: 230px;
+}
+
+.aside-container {
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+.main-container {
+  width: 60%;
+  margin-bottom: 10%;
+}
+
+section header {
+  background: #5DADEC;
+  font-family: 'Open Sans', 'Cantarell', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-shadow: 0px 3px 1px rgba(158, 158, 158, 1);
+  color: white;
+  padding: 3% 0;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 0;
+  border: solid thin rgba(107, 63, 160, 1);
+}
+
+section header a {
+  font-size: 0.8rem;
+}
+
+.data-article {
+  padding: 3%;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(107, 63, 160, 1);
+  font-weight: 700;
+  background: white;
+  border-right: solid thin rgba(107, 63, 160, 1);
+  border-left: solid thin rgba(107, 63, 160, 1);
+  border-bottom: solid thin rgba(107, 63, 160, 1);
+}
+
+.data-article-name {
+  flex: 2;
+}
+
+.data-article-btn {
+  margin-right: 3%;
+}
+
+.edit-btn {
+  background: #5DADEC;
+  color: white !important;
+}
+
+.delete-btn {
+  color: white !important;
+}
+
+
+/* End Generic Rules */
+
+/* Create/Edit/Delete Pages */
+
+form {
+  background: white;
+  padding: 3%;
+  border: solid thin rgba(107, 63, 160, 1);
+  border-top: none;
+}
+
+.cancel-btn {
+  width: 75px;
+}
+
+/* End Create/Edit/Delete Pages */
+
+/* Nav */
+
+nav {
+  background: rgba(107, 63, 160, 1);
+  background: -webkit-linear-gradient(to right, rgba(107, 63, 160, 1), rgba(107, 63, 160, 0.8) 35%, rgba(107, 63, 160, 1) 50%);
+  background: -o-linear-gradient(to right, rgba(107, 63, 160, 1), rgba(107, 63, 160, 0.8) 35%, rgba(107, 63, 160, 1) 50%);
+  background: -moz-linear-gradient(to right, rgba(107, 63, 160, 1), rgba(107, 63, 160, 0.8) 35%, rgba(107, 63, 160, 1) 50%);
+  background: linear-gradient(to right, rgba(107, 63, 160, 1), rgba(107, 63, 160, 0.8) 35%, rgba(107, 63, 160, 1) 50%);
+  color: white;
+}
+
+#headerlogo {
+  max-width: 75px;
+}
+
+#headername {
+  font-family: 'Open Sans', 'Cantarell', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.8rem;
+  text-shadow: 0px 3px 1px rgba(158, 158, 158, 1);
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255,255);
+    cursor: pointer
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  cursor: pointer;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* End Nav */
+
+/* Ingredients.html */
+
+.add-ingredient-form {
+  max-width: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  -webkit-transition: max-width 1s linear 1s;
+  transition: max-width 1s linear 1s;
+}
+
+.add-ingredient-btn {
+  max-width: 1000px;
+  color: white !important;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: max-width 1s, padding 0.5s linear 0.25s;
+  transition: max-width 1s, padding 0.5s linear 0.25s;
+}
+
+.edit-ingredient-form {
+  max-width: 0;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  -webkit-transition: max-width 1s linear;
+  transition: max-width 1s linear;
+}
+
+.ingredients-details {
+  max-width: 1000px;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: max-width 1s, padding 1s linear;
+  transition: max-width 1s, padding 1s linear;
+}
+
+.hidden-delete-form {
+  visibility: hidden;
+  max-width: 0;
+  max-height: 0;
+  padding: 0;
+}
+
+.real-delete-ingredient-btn {
+  visibility: hidden;
+}
+
+/* End Ingredients.html */
+
+/* Login.html */
+
+#signinButton {
+  padding: 5%;
+  background: white;
+}
+
+/* End Login.html */
